@@ -1,0 +1,370 @@
+html{
+
+  width: 1830px;
+
+}
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: url("") no-repeat center / cover;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: inherit;
+      filter: blur(10px);
+    }
+  }
+
+    /* не трогать*/
+  .calendar {
+    position: relative;
+    width: 600px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  /* не трогать*/
+  .calendar__picture {
+    position: relative;
+
+    padding: 50px; 
+    color: #ffffff;
+    background: #262626 url("https://avatars.dzeninfra.ru/get-zen_doc/4721351/pub_6387766aab5e2f478b11c3a3_638786882b36453f4048447b/scale_1200") no-repeat center / cover;
+    text-shadow: 0 2px 2px rgba(#000, 0.2);
+    box-sizing: border-box;
+}
+    h2 {
+      margin: 0;
+    }
+    
+  .calendar__date {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 50px;
+    box-sizing: border-box;
+  }
+  .calendar__day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-weight: 600;
+    color: #262626;
+    
+    &:nth-child(7) {
+      color: #ff685d;
+    }
+  }
+  .calendar__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    color: #262626;
+  
+    &:nth-child(7n) {
+      color: #ff685d;
+      font-weight: 700;
+    }
+  }
+
+   /* 1 */ 
+
+   .calendar__picture1 {
+    position: relative;
+    padding: 50px; 
+    color: #ffffff;
+    background: #262626 url("https://i.pinimg.com/originals/6c/fa/c4/6cfac48a005c64881733efa57146e909.jpg") no-repeat center / cover;
+    text-shadow: 0 2px 2px rgba(#000, 0.2);
+    box-sizing: border-box;
+}
+
+.calendar1 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* 2 */
+
+
+.box-1 {
+  height: 708px;
+}
+
+.calendar__picture2 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://i.pinimg.com/originals/0c/1c/8f/0c1c8ff41ac0ddb2cd36bdf6a49bbc11.jpg") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+}
+
+.calendar2 {
+position: relative;
+width: 600px;
+background-color: #ffffff;
+box-sizing: border-box;
+border-radius: 20px;
+overflow: hidden;
+}
+
+/* 3 */
+
+.box-2 {
+  height: 708px;
+  position: relative;
+  left: 600px;
+  top: -781px;
+}
+
+.calendar3 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.calendar__picture3 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://avatars.mds.yandex.net/get-mpic/3916156/img_id4826918285635141944.jpeg/orig") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+}
+
+/* 4 */
+
+.box-3 {
+  height: 708px;
+  position: relative;
+  right: 1200px;
+  top: -708px;
+}
+
+.calendar4 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calendar__picture4 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://i.pinimg.com/originals/4e/a4/b8/4ea4b8dff56fcb3e079171f89dd330c8.jpg") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+}
+
+/* 5 */
+
+.box-4 {
+  height: 708px;
+  position: relative;
+  top: -1417px;
+  right: 600px;
+
+}
+
+.calendar5 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calendar__picture5 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://i.pinimg.com/originals/40/69/f4/4069f497ed6ef434b5d8eebfa86ebf6f.jpg") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+}
+
+/* 6 */
+
+.box-5 {
+  position: relative;
+left: 0px;
+height: 708px;
+top: -2125px;
+}
+
+.calendar6 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calendar__picture6 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://i.pinimg.com/originals/b9/f3/9f/b9f39fb91473db8a0a896b582052b07a.jpg") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+  
+}
+
+/* 7 */
+
+.box-6 {
+  height: 708px;
+  position: relative;
+ left: 600px;
+  top: -2833px;
+}
+
+.calendar7 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calendar__picture7 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://avatars.mds.yandex.net/i?id=638f7d019941144646051004f6d3aaae_l-5241344-images-thumbs&n=13") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+}
+
+/* 8 */
+
+.box-7 {
+  height: 708px;
+  position: relative;
+  right: 1200px;
+  top: -2757px;
+}
+
+.calendar8 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calendar__picture8 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://i.pinimg.com/originals/6c/a6/4c/6ca64c66a46a3699e9af62ab2ddabca3.jpg") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+}
+
+/* 9 */
+
+.box-8 {
+  height: 708px;
+  position: relative;
+  right: 600px;
+  top: -3465px;
+}
+
+.calendar9 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calendar__picture9 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://img2.akspic.ru/attachments/crops/0/9/4/6/96490/96490-severnyh_listvennyh_lesov-osen-drevesina-drevesnye_rasteniya-roshha-3840x2160.jpg") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+}
+
+/* 10 */
+
+.box-9 {
+  height: 708px;
+  position: relative;
+  right: 0px;
+  top: -4173px;
+}
+
+.calendar10 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calendar__picture10 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://i.pinimg.com/originals/9a/cb/e2/9acbe2a74926ddcf057d06a059badfde.jpg") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+}
+
+/* 11 */
+
+.box-10 {
+  height: 708px;
+  position: relative;
+ left: 600px;
+  top: -4881px;
+}
+
+.calendar11 {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.calendar__picture11 {
+  position: relative;
+  padding: 50px; 
+  color: #ffffff;
+  background: #262626 url("https://wallpapers.com/images/hd/snowy-roads-of-greenwich-ct-vzg1b4uk1pqe6i18.jpg") no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+}
